@@ -3,7 +3,7 @@
 ## Table of Contents
 
   -  [Project Overview](#project-overview)
-  -  [Data Sources](#sata-sources)
+  -  [Data Sources](#data-sources)
   -  [Tools](#tools)
   -  [Cleaning and validating the data](#cleaning-and-validating-the-data)
   -  [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -53,18 +53,24 @@ Some interesting features worked with are:
 ### Findings
 
 **Average Time to Close:** The average time to close a claim across the four cities (Fortaleza, Natal, Recife, and Sao Luis) is similar, ranging from 184.61 to 187.17 days. Recife has the shortest average time to close at 184.61 days.
+
 **Range and Variability:** The time to close varies in spread:
   **Natal** has the narrowest range, with a standard deviation of 47.06 days, although the average is slightly higher at 185.93 days.
   **Sao Luis** shows the widest spread in time to close values, indicating more variability.
+
 **Median Time to Close:** The median time to close across the cities ranges from 178 to 180 days.
+
 **Minimum and Maximum Times:** Claims close as quickly as 76 to 93 days but can take up to 361 to 518 days.
+
 **Outliers:** Each city has potential outliers, suggesting there may be specific cases with unusually long closing times.
 
 ### Recommendations
 
-**Further Investigation of Outliers:** Investigate cases identified as outliers to understand any unique factors affecting longer closing times.
-**Targeted Improvements in Sao Luis:** Since Sao Luis has the widest spread in closing times, it may benefit from strategies to reduce variability and streamline claim processing.
-**Monitoring and Optimization:** Monitor high and low-performing locations (e.g., Recife and Sao Luis) to identify best practices or areas for improvement, potentially standardizing procedures to narrow the range of time to close across all cities.
+**1. Further Investigation of Outliers:** Investigate cases identified as outliers to understand any unique factors affecting longer closing times.
+
+**2. Targeted Improvements in Sao Luis:** Since Sao Luis has the widest spread in closing times, it may benefit from strategies to reduce variability and streamline claim processing.
+
+**3. Monitoring and Optimization:** Monitor high and low-performing locations (e.g., Recife and Sao Luis) to identify best practices or areas for improvement, potentially standardizing procedures to narrow the range of time to close across all cities.
 
 ### References
 1. [DataCamp](https://app.datacamp.com/)

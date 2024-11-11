@@ -19,6 +19,25 @@ The legal team, who processes these claims, is currently split across four locat
 The food chain company Vivendo wants a report on how each location differs in the time it takes to close claims. 
 We seek to uncover insights to help them improve their processes. 
 
+#### Claims by Location
+![Claims by Location](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/claims_vs_location.png)
+
+#### Proportion of Claims
+![Proportion of Claims](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/proportion_of_claims.png)
+
+#### Distribution of Claims
+![Distribution of Claims by Histogram](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/histogram_distribution_of_claims.png)
+
+![Distribution of Claims by KDE](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/kde-distrbution_of_claims.png)
+
+#### Time to Close by Location
+![Time to Close by Location using Scatterplot](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/time-to-close_vs_location_scatterplot.png)
+
+![Time to Close by Location using Boxplot](https://github.com/Dekay27/Python-DataAnalysis-Projects/blob/main/time-to-close_vs_location_boxplot.png)
+
+
+
+
 ### Data Sources
 
 The primary dataset used for this analysis is the ['claims.csv'] file. Our data was provided in a CSV format, containing detailed information about each claim.
